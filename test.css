@@ -10,7 +10,7 @@
     background-color:black;
     position:relative;
     color: rgb(183, 147, 3);
-    border-image:url(images/bordering.png) 15%;
+    border-image:url(bordering.png) 15%;
 }
 @media (min-width: 850px) {
     .head{padding: 20px;}
