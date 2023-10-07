@@ -1,0 +1,113 @@
+.head{
+    padding: 5px;
+    background-color: black;
+}
+.header{
+    border: 50px solid black;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    background-color:black;
+    position:relative;
+    color: rgb(183, 147, 3);
+    border-image:url(images/bordering.png) 15%;
+}
+@media (min-width: 850px) {
+    .head{padding: 20px;}
+    .header{
+    border: 100px solid black;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    background-color:black;
+    position:relative;
+    color: rgb(183, 147, 3);
+    border-image:url(images/bordering.png) 25%;
+    font-size: 2em;
+    }
+    .inspection{
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(183, 147, 3);
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 20px;
+    }
+    .box1{ justify-content: space-evenly;}
+    .img{min-width: 300px;}
+    .hi{font-size: 35px;
+        margin-top: 20px;
+        font: bold;}
+    .b1{width: 600px;}
+    .para{
+
+        margin-left:50px;
+        margin-right: 50px;
+    }
+}
+.field{
+    border: 10px solid rgb(183, 147, 3);
+    background-color: lightgray;
+}
+.aboutUs{
+    text-align: center;
+    border-bottom: 10px solid rgb(183, 147, 3);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.services{
+    border-bottom: 10px solid rgb(183, 147, 3);
+
+}
+h1{text-align: center;
+}
+.box1{
+    display: flex;
+}
+.inspection{
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px black;
+    padding-bottom: 10px;
+    min-width: 100px;
+    border: 3px solid rgb(183, 147, 3);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.img{
+    max-width: 100px;
+
+}
+.b1{
+margin-left: 20px;
+padding-right: 5px;
+}
+.a:hover{
+    box-shadow: 5px 5px 5px transparent;
+}
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.para{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.price{
+    color: red;
+    margin-bottom: 10px;
+}
+h4{
+    text-align: center;
+    border-bottom: 5px dotted rgb(183, 147, 3);
+}
+.checkOut{
+    text-align: center;
+}
+h2{text-align: center;}

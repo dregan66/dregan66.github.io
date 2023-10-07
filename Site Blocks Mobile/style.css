@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(136, 215, 242);
+}
+.header1{
+    text-align: center;
+    border: 3px solid black;
+    font-size: 50px;
+    max-width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    margin: 50px;
+    margin-bottom: 15px;
+}
+.sb{
+    margin-left: 15px;
+    color: red;
+}
+.header2{
+    border: 3px solid black;
+    font-size: 50px;
+    max-width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightpink;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.header3{
+    border: 3px solid black;
+    font-size: 50px;
+    max-width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: orange;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.num{
+    border: 3px solid black;
+    font-size: 50px;
+    max-width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.a{
+    background-color: white;
+
+}
+.b{
+    margin-left: 100px;
+    background-color: greenyellow;
+}
+.c{
+    margin-left: 150px;
+    background-color: rgb(25, 143, 143);
+}
+.a:hover{
+    box-shadow: 5px 10px 5px black;
+}
+.b:hover{
+    box-shadow: 5px 10px 5px rgb(4, 203, 4);
+}
+.c:hover{
+    box-shadow: 5px 10px 5px rgb(4, 81, 4);
+}
+.test{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    margin:0;
+}
+.con{
+    text-align: center;
+}
+.email{
+    text-align: center;
+}
+.phone{
+    text-align: center;
+    margin-bottom: 50px;
+}
+@media (min-width:1025px){
+    .header1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 800px;
+    }
+    .header2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 750px;
+    }
+    .header3{
+        margin-left: 550px;
+    }
+    .nums{
+        display: flex;
+        margin-bottom: 75px;
+        margin-top: 50px;
+        justify-content: space-evenly;
+    }
+    .phone{
+
+        visibility:hidden;
+    }
+}
