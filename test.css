@@ -22,7 +22,7 @@
     background-color:black;
     position:relative;
     color: rgb(183, 147, 3);
-    border-image:url(images/bordering.png) 25%;
+    border-image:url(bordering.png) 25%;
     font-size: 2em;
     }
     .inspection{
