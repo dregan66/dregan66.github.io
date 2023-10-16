@@ -10,7 +10,7 @@
     background-color:black;
     position:relative;
     color: rgb(183, 147, 3);
-    border-image:url(bordering.png) 15%;
+    border-image:url(images/bordering.png) 15%;
 }
 @media (min-width: 850px) {
     .head{padding: 20px;}
@@ -22,7 +22,7 @@
     background-color:black;
     position:relative;
     color: rgb(183, 147, 3);
-    border-image:url(bordering.png) 25%;
+    border-image:url(images/bordering.png) 25%;
     font-size: 2em;
     }
     .inspection{
@@ -42,7 +42,8 @@
     .hi{font-size: 35px;
         margin-top: 20px;
         font: bold;}
-    .b1{width: 600px;}
+    .b1{width: 600px;
+        font-size: 60px;}
     .para{
 
         margin-left:50px;
@@ -67,6 +68,7 @@ h1{text-align: center;
 }
 .box1{
     display: flex;
+    align-items: center;
 }
 .inspection{
     text-align: center;
@@ -87,6 +89,8 @@ h1{text-align: center;
 .b1{
 margin-left: 20px;
 padding-right: 5px;
+font-size: 20px;
+
 }
 .a:hover{
     box-shadow: 5px 5px 5px transparent;
