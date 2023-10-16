@@ -68,7 +68,7 @@ h1{text-align: center;
 }
 .box1{
     display: flex;
-    align-items: center;
+    align-items: ;
 }
 .inspection{
     text-align: center;
@@ -89,7 +89,7 @@ h1{text-align: center;
 .b1{
 margin-left: 20px;
 padding-right: 5px;
-font-size: 20px;
+font-size: 15px;
 
 }
 .a:hover{
