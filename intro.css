@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+.image{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    border-radius: 170px 170px 0 0;
+    z-index: -1;
+}
+.names{
+    font-family: cursive;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    font-style: bold;
+
+}
+.tophead{
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+.couple{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.couplePic{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+.Engpic{
+    max-width:30%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+.title{
+    text-align: center;
+}
+.about{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.col{
+    display: flex;
+    background-color:;
+    justify-content: space-evenly;
+}
+.ep{
+    border-radius: 200;
+    max-width: 50% ;
+    margin-bottom: 10px;
+}
